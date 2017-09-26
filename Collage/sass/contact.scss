@@ -1,0 +1,42 @@
+.wpcf7-form {
+	width: 100%;
+	background-color: white;
+	border-radius: 5px;
+	padding:20px;
+
+}
+
+.wpcf7 {
+	text-align: center;
+}
+
+label {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	color: RGB(49, 96, 248);
+}
+
+.wpcf7-submit {
+	background-color: #4367F7;
+	color:white;
+	width:150px;
+	padding:10px;
+	border-radius: 5px;
+	border-color: none;
+	box-shadow: none;
+	border-style: none;
+}
+@media (max-width:450px){
+		.wpcf7 input {width:250px;}
+	}
+input[type=submit] {
+	color: white;
+}
+
+.contact-desc {
+	padding:50px;
+	font-size: 1.6rem;
+}
+	h3 {
+		color:RGB(86, 116, 251);
+	}

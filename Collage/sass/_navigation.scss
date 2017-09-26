@@ -1,0 +1,31 @@
+ul.menu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style: none;
+	li {
+		display: inline;
+		margin-right: 10px;
+		list-style: none;
+		list-style-type: none;
+
+		a {
+			color: #333;
+			padding: 10px;
+			background: #333;
+			color: white;
+		}
+	}
+}
+
+.main-nav {
+	// background-color: RGB(239, 243, 247);
+	img {
+		margin-left:60px;
+	}
+	h1 a {
+		color:white;
+		text-decoration: none;
+	}
+}
+

@@ -1,0 +1,68 @@
+// _hero.scss
+
+.headline h1 {
+	font-size: 2rem;
+	padding-top: 50px;
+	letter-spacing: -0.68px;
+}
+
+.desc {
+	padding: 50px 0px 50px 0px;
+    font-size: 1.3rem;
+}
+.figure {
+	padding:0px;
+}
+.figure img {
+	width:100%;
+	height:400px;
+}
+// responsive handling for hero img
+@media (max-width:450px){
+		.figure img {height:300px;}
+	}
+
+.carousel-cell {
+	color:white;
+	width:80%;
+	margin-right:20px;
+}
+
+.bck1 {
+background-image: url('images/bg-1.jpg');
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.bck2 {
+background-image: url('images/bg-2.jpg');
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.bck3 {
+background-image: url('images/bg-3.jpg');
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.cell-content {
+	padding:10px;
+	height:245px;
+	width:100%;
+	text-shadow: 1px 1px 10px RGB(35, 44, 52);
+	img {
+		width:80px;
+	}
+}
+
+// responsive handling for carousel in mobile
+@media (max-width:450px){
+		.cell-content {height:300px; font-size: 0.90rem;}
+		.carousel-cell {text-align: center;}
+		.main-carousel {height:300px;}
+	}
